@@ -1,11 +1,11 @@
 package service
 
 import (
-	realdomain "github.com/ashishjuyal/banking/domain"
-	"github.com/ashishjuyal/banking/dto"
-	"github.com/ashishjuyal/banking-lib/errs"
-	"github.com/ashishjuyal/banking/mocks/domain"
 	"github.com/golang/mock/gomock"
+	"github.com/veliancreate/banking-lib/errs"
+	realdomain "github.com/veliancreate/banking/domain"
+	"github.com/veliancreate/banking/dto"
+	"github.com/veliancreate/banking/mocks/domain"
 	"testing"
 )
 

@@ -3,9 +3,10 @@ package domain
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/ashishjuyal/banking-lib/logger"
 	"net/http"
 	"net/url"
+
+	"github.com/veliancreate/banking-lib/logger"
 )
 
 type AuthRepository interface {

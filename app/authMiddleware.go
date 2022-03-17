@@ -1,11 +1,12 @@
 package app
 
 import (
-	"github.com/ashishjuyal/banking/domain"
-	"github.com/ashishjuyal/banking-lib/errs"
-	"github.com/gorilla/mux"
 	"net/http"
 	"strings"
+
+	"github.com/gorilla/mux"
+	"github.com/veliancreate/banking-lib/errs"
+	"github.com/veliancreate/banking/domain"
 )
 
 type AuthMiddleware struct {

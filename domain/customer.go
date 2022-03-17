@@ -1,8 +1,8 @@
 package domain
 
 import (
-	"github.com/ashishjuyal/banking/dto"
-	"github.com/ashishjuyal/banking-lib/errs"
+	"github.com/veliancreate/banking-lib/errs"
+	"github.com/veliancreate/banking/dto"
 )
 
 type Customer struct {

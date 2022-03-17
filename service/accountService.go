@@ -1,10 +1,11 @@
 package service
 
 import (
-	"github.com/ashishjuyal/banking/domain"
-	"github.com/ashishjuyal/banking/dto"
-	"github.com/ashishjuyal/banking-lib/errs"
 	"time"
+
+	"github.com/veliancreate/banking-lib/errs"
+	"github.com/veliancreate/banking/domain"
+	"github.com/veliancreate/banking/dto"
 )
 
 const dbTSLayout = "2006-01-02 15:04:05"

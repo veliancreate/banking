@@ -2,10 +2,11 @@ package app
 
 import (
 	"encoding/json"
-	"github.com/ashishjuyal/banking/dto"
-	"github.com/ashishjuyal/banking/service"
-	"github.com/gorilla/mux"
 	"net/http"
+
+	"github.com/gorilla/mux"
+	"github.com/veliancreate/banking/dto"
+	"github.com/veliancreate/banking/service"
 )
 
 type AccountHandler struct {

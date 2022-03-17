@@ -1,11 +1,11 @@
 package app
 
 import (
-	"github.com/ashishjuyal/banking/dto"
-	"github.com/ashishjuyal/banking-lib/errs"
-	"github.com/ashishjuyal/banking/mocks/service"
 	"github.com/golang/mock/gomock"
 	"github.com/gorilla/mux"
+	"github.com/veliancreate/banking-lib/errs"
+	"github.com/veliancreate/banking/dto"
+	"github.com/veliancreate/banking/mocks/service"
 	"net/http"
 	"net/http/httptest"
 	"testing"

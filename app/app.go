@@ -2,15 +2,16 @@ package app
 
 import (
 	"fmt"
-	"github.com/ashishjuyal/banking/domain"
-	"github.com/ashishjuyal/banking-lib/logger"
-	"github.com/ashishjuyal/banking/service"
-	"github.com/gorilla/mux"
-	"github.com/jmoiron/sqlx"
 	"log"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/gorilla/mux"
+	"github.com/jmoiron/sqlx"
+	"github.com/veliancreate/banking-lib/logger"
+	"github.com/veliancreate/banking/domain"
+	"github.com/veliancreate/banking/service"
 )
 
 func sanityCheck() {

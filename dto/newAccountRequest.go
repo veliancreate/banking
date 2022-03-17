@@ -1,8 +1,9 @@
 package dto
 
 import (
-	"github.com/ashishjuyal/banking-lib/errs"
 	"strings"
+
+	"github.com/veliancreate/banking-lib/errs"
 )
 
 type NewAccountRequest struct {

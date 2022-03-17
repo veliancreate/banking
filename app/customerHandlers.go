@@ -2,9 +2,10 @@ package app
 
 import (
 	"encoding/json"
-	"github.com/ashishjuyal/banking/service"
-	"github.com/gorilla/mux"
 	"net/http"
+
+	"github.com/gorilla/mux"
+	"github.com/veliancreate/banking/service"
 )
 
 type CustomerHandlers struct {
